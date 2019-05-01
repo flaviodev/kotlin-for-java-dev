@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/flaviodev/InvocationFromJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FromJavaToKotlinTest.kt" afterDir="false" />
+    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_01fromjavatokotlin/FromJavaToKotlin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_01fromjavatokotlin/FromJavaToKotlin.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_02basics/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_02basics/Functions.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/AppTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -45,6 +42,11 @@
                 <item name="kotlin-for-java-dev" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="kotlin-for-java-dev" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -81,15 +83,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/flaviodev/InvocationFromJava.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -130,6 +141,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/flaviodev/kfjd/_02basics/InvocationFromJava.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_02basics/Functions.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/flaviodev/InvocationFromJava.java" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FunctionsTest.kt" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle.kts" />
       </list>
     </option>
   </component>
@@ -232,7 +246,24 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="flaviodev" type="462c0819:PsiDirectoryNode" />
               <item name="kfjd" type="462c0819:PsiDirectoryNode" />
+              <item name="_01fromjavatokotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flaviodev" type="462c0819:PsiDirectoryNode" />
+              <item name="kfjd" type="462c0819:PsiDirectoryNode" />
               <item name="_02basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,10 +273,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.flaviodev.kfjd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -267,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InvocationFromJava">
+  <component name="RunManager" selected="Gradle.FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10">
     <configuration name="InvocationFromJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flaviodev.InvocationFromJava" />
       <module name="kotlin-for-java-dev.main" />
@@ -280,6 +315,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="FromJavaToKotlinTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.flaviodev.kfjd.FromJavaToKotlinTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -299,25 +354,6 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="kotlin-for-java-dev [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <configuration name="kotlin-for-java-dev [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -360,18 +396,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InvocationFromJava" />
-      <item itemvalue="Gradle.FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" />
       <item itemvalue="Gradle.kotlin-for-java-dev [clean]" />
-      <item itemvalue="Gradle.kotlin-for-java-dev [assemble]" />
       <item itemvalue="Gradle.kotlin-for-java-dev [classes]" />
+      <item itemvalue="Gradle.FromJavaToKotlinTest" />
+      <item itemvalue="Gradle.FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" />
+        <item itemvalue="Gradle.kotlin-for-java-dev [clean]" />
+        <item itemvalue="Gradle.FromJavaToKotlinTest" />
         <item itemvalue="Application.InvocationFromJava" />
         <item itemvalue="Gradle.kotlin-for-java-dev [classes]" />
-        <item itemvalue="Gradle.kotlin-for-java-dev [assemble]" />
-        <item itemvalue="Gradle.kotlin-for-java-dev [clean]" />
-        <item itemvalue="Gradle.FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556708432468</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="functions">
+      <created>1556731508131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556731508131</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -415,6 +458,12 @@
     <history-entry file="FromJavaToKotlinTest_testUpdateWeatherWithDegreesEquals10 - 2019.05.01 at 11h 35m 43s.xml">
       <configuration name="FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="FromJavaToKotlinTest - 2019.05.01 at 14h 38m 33s.xml">
+      <configuration name="FromJavaToKotlinTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FromJavaToKotlinTest_testUpdateWeatherWithDegreesEquals10 - 2019.05.01 at 14h 39m 22s.xml">
+      <configuration name="FromJavaToKotlinTest.testUpdateWeatherWithDegreesEquals10" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -425,15 +474,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20365246" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20365246" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.33045357" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -451,7 +501,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="init versioning" />
+    <MESSAGE value="functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="functions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt">
@@ -460,13 +511,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_01fromjavatokotlin/FromJavaToKotlin.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -487,13 +531,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flaviodev/kfjd/_02basics/Basics.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FromJavaToKotlinTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_02basics/Functions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -504,11 +541,45 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/flaviodev/InvocationFromJava.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default-detekt-config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FunctionsTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#104#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FromJavaToKotlinTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_01fromjavatokotlin/FromJavaToKotlin.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
