@@ -1,6 +1,6 @@
 package com.flaviodev.kfjd._01fromjavatokotlin
 
-enum class Color { BLUE, ORANGE, RED }
+enum class Color { BLUE, ORANGE, RED, YELLOW, GREEN, VIOLET }
 
 fun updateWeather(degrees: Int) =
         when {
