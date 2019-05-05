@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ParentAndChild.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -15,8 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -54,11 +53,11 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Loops.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
+            <state relative-caret-position="945">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
@@ -86,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ExtensionsFunctions.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -95,16 +94,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/StandardLibrary.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ParentAndChild.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -121,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Exceptions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="150">
               <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
               <folding>
                 <element signature="e#49#156#0" expanded="true" />
@@ -133,20 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/60070a2fbed969e9b73f214cb41072eabedf299a/kotlin-stdlib-common-1.3.20-sources.jar!/kotlin/text/StringNumberConversions.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="930">
               <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/ConditionalsIfAndWhen.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="36" column="23" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="23" />
-              <folding>
-                <element signature="e#49#127#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -190,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ExtensionsFunctions.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/StandardLibrary.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ParentAndChild.kt" />
       </list>
     </option>
   </component>
@@ -205,7 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -304,11 +300,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
@@ -339,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._04extensions.PlayGroundSumExtensionKt">
+  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._04extensions.ParentAndChildKt">
     <configuration name="com.flaviodev.kfjd._03controlstructures.ExceptionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -353,19 +352,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.flaviodev.kfjd._03controlstructures.PlaygroundKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-for-java-dev.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._03controlstructures.PlaygroundKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.flaviodev.kfjd._04extensions.ExtensionsFunctionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -374,6 +360,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._04extensions.ExtensionsFunctionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.flaviodev.kfjd._04extensions.ParentAndChildKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-for-java-dev.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._04extensions.ParentAndChildKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -406,19 +405,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.flaviodev.kfjd._03controlstructures.PlaygroundKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._03controlstructures.ExceptionsKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.ExtensionsFunctionsKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.StandardLibraryKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.PlayGroundSumExtensionKt" />
+      <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.ParentAndChildKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.ParentAndChildKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.PlayGroundSumExtensionKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.StandardLibraryKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._04extensions.ExtensionsFunctionsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._03controlstructures.ExceptionsKt" />
-        <item itemvalue="Kotlin.com.flaviodev.kfjd._03controlstructures.PlaygroundKt" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557028350899</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="sum as extension">
+      <created>1557028406776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557028406776</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -548,20 +554,21 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20365246" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.20586608" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.33045357" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.32829374" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32937366" />
       <window_info anchor="right" id="Gradle" order="0" weight="0.32982844" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -584,18 +591,11 @@
     <MESSAGE value="exceptions" />
     <MESSAGE value="extensions" />
     <MESSAGE value="standard library and infix functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="standard library and infix functions" />
+    <MESSAGE value="sum as extension" />
+    <option name="LAST_COMMIT_MESSAGE" value="sum as extension" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_02basics/Basics.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -610,22 +610,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/flaviodev/kfjd/_02basics/Basics.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/default-detekt-config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FunctionsTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#104#219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/flaviodev/kfjd/_02basics/Basics.kt" />
+    <entry file="file://$PROJECT_DIR$/default-detekt-config.yml" />
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FunctionsTest.kt" />
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/com/flaviodev/kfjd/FromJavaToKotlinTest.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -690,15 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Loops.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="945">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/60070a2fbed969e9b73f214cb41072eabedf299a/kotlin-stdlib-common-1.3.20-sources.jar!/kotlin/text/StringNumberConversions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -709,20 +689,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Exceptions.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#49#156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Playground.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ExtensionsFunctions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/StandardLibrary.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -733,24 +724,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ExtensionsFunctions.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Exceptions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#49#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.20/60070a2fbed969e9b73f214cb41072eabedf299a/kotlin-stdlib-common-1.3.20-sources.jar!/kotlin/text/StringNumberConversions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/ParentAndChild.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/StandardLibrary.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/PlayGroundSumExtension.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
