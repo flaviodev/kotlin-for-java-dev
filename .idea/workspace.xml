@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/PlaygroundSafeCast.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/PlaygroundSafeCast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/PlaygroundSafeCast.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -111,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/PlaygroundSafeCast.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="45">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -564,7 +564,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557086757516</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="playground safe cast">
+      <created>1557087051093</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1557087051093</updated>
+    </task>
+    <task id="LOCAL-00020" summary="playground safe cast">
+      <created>1557087321160</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1557087321160</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -645,7 +659,8 @@
     <MESSAGE value="nullable types under hood" />
     <MESSAGE value="playground check string" />
     <MESSAGE value="safe cast" />
-    <option name="LAST_COMMIT_MESSAGE" value="safe cast" />
+    <MESSAGE value="playground safe cast" />
+    <option name="LAST_COMMIT_MESSAGE" value="playground safe cast" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
@@ -831,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/PlaygroundSafeCast.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="45">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
         </state>
       </provider>
     </entry>
