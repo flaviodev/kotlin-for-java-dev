@@ -1,32 +1,26 @@
 package com.flaviodev.kfjd._05nullability
 
-val s1: String = "always not null"
-val s2: String? = "can be null or non-null"
-
-val s3: String? = null
-
-val length: Int? = s3?.length
-
 fun main() {
+    var nullableItensList: List<Int?> = listOf(1, null, 2)
+    // nullableItensList = null -> error
+    println(nullableItensList)
 
-    if(s3 != null)
-        println(s3.length)
+    var nullableList: List<Int>? = null
+    // nullableList = listOf(1,null) -> error
+    println(nullableList)
 
-    //It's the same
+    var fullNullableList: List<Int?>? = null
+    fullNullableList = listOf(1, null, 2)
+    println(fullNullableList)
 
-    println(s3?.length)
+    val optional: Optional<String?> = Optional(null)
+    println(optional.get())
+}
 
-    // elvis operator
-    println(s3?.length ?: 0)
+// nullable types != Optional
+class Optional<T>(val value: T) {
 
-    val v1: Int? = 1
-    val v2: Int? = null
+    fun isPresente() = value != null
 
-    // elvis precedence
-    println(v2 ?: 2 * 2 + v1!!)
-
-    // not-nul assertion -> throww NPE
-    println(s3!!.length)
-
-    // prefer ?. ?: to !!
+    fun get() = value ?: throw NoSuchElementException("No value presente")
 }
