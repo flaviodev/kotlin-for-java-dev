@@ -1,3 +1,5 @@
+@file:Suppress("CAST_NEVER_SUCCEEDS")
+
 package com.flaviodev.kfjd._05nullability
 
 fun main() {
