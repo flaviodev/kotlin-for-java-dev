@@ -59,6 +59,10 @@ fun main() {
     println("List of lists -> $listOfLists")
     println("Flatten of List of lists -> ${listOfLists.flatten()}")
 
+    val list4 = listOf(2,2,4,6)
+    println("List with repetitions -> $list4")
+    println("List with repetitions after distinct -> ${list4.distinct()}")
+
 }
 
 data class Person(val name: String, val age: Int)
