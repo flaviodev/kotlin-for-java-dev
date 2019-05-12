@@ -47,6 +47,10 @@ fun main() {
 
     println("Persons Max by age -> ${persons.maxBy { it.age }}")
 
+    val anonymousPerson = Person(name = "anybody fallback",age = 100)
+
+    println("Usind gerOrElse -> ${ persons.associateBy { it.name }.getOrElse("nobody") { anonymousPerson }.name }")
+
     println("Associate numbers of list to a letter -> ${list.associateBy { 'a' + it - 1 }}")
     println("Associate numbers of list to a letter -> ${list.associateBy { 'A' + it - 1 }}")
 
