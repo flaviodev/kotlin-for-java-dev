@@ -38,11 +38,15 @@ fun main() {
 
     val persons = listOf(Person(name = "Alice", age = 31),
             Person(name = "Bob", age = 29),
-            Person(name = "Carol", age = 31))
+            Person(name = "Carol", age = 31),
+            Person(name = "Adam", age = 45))
 
     println("Grouping persons by age -> ${persons.groupBy { it.age }}")
     println("Associate persons by name -> ${persons.associateBy { it.name }}")
     println("Associate persons by age (removing duplicates) -> ${persons.associateBy { it.age }}")
+
+    println("Persons Max by age -> ${persons.maxBy { it.age }}")
+
     println("Associate numbers of list to a letter -> ${list.associateBy { 'a' + it - 1 }}")
     println("Associate numbers of list to a letter -> ${list.associateBy { 'A' + it - 1 }}")
 
