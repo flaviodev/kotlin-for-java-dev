@@ -47,30 +47,51 @@ fun main() {
 
     println("Persons Max by age -> ${persons.maxBy { it.age }}")
 
-    val anonymousPerson = Person(name = "anybody fallback",age = 100)
+    val anonymousPerson = Person(name = "anybody fallback", age = 100)
 
-    println("Usind gerOrElse -> ${ persons.associateBy { it.name }.getOrElse("nobody") { anonymousPerson }.name }")
+    println("Usind gerOrElse -> ${persons.associateBy { it.name }.getOrElse("nobody") { anonymousPerson }.name}")
+
+    println("Map Persons by sorted name -> ${persons.map { it.name }.sorted()}")
 
     println("Associate numbers of list to a letter -> ${list.associateBy { 'a' + it - 1 }}")
     println("Associate numbers of list to a letter -> ${list.associateBy { 'A' + it - 1 }}")
 
-    println("Associate numbers of list to a letter -> ${list.associate { ('A' + it-1).toString() + it to it * 100 }}")
+    println("Associate numbers of list to a letter -> ${list.associate { ('A' + it - 1).toString() + it to it * 100 }}")
 
     println("Zipping numbers with persons -> ${list.zip(persons)}")
     println("Zip with the next number -> ${list.zipWithNext()}")
 
-    val list2 = listOf(9,10,11)
-    val list3 = listOf(12,13,14,15)
+    val list2 = listOf(9, 10, 11)
+    val list3 = listOf(12, 13, 14, 15)
 
-    val listOfLists = listOf(list,list2,list3)
+    val listOfLists = listOf(list, list2, list3)
 
     println("List of lists -> $listOfLists")
     println("Flatten of List of lists -> ${listOfLists.flatten()}")
 
-    val list4 = listOf(2,2,4,6)
+    val list4 = listOf(2, 2, 4, 6)
     println("List with repetitions -> $list4")
     println("List with repetitions after distinct -> ${list4.distinct()}")
 
+    val fruits = Food(category = "Fruits", names = listOf("banana", "cherry", "lemon", "apple"))
+    val vegetables = Food(category = "Vegetables", names = listOf("tomato", "potato", "beans", "rice"))
+    val foodList = listOf(fruits, vegetables)
+
+    println("Food list -> $foodList")
+    println("Flatten of map of Food list -> ${foodList.map { it.names }.flatten()}")
+    println("FlatMap of Food list -> ${foodList.flatMap { it.names }}") // flatten of map = flatMap
+
+
+    val allPossiblePairsOfPerson = persons.flatMap { first ->
+        persons.map { second -> first to second }
+    }
+
+    val (first, second) = allPossiblePairsOfPerson.maxBy { it.first.age - it.second.age }!!
+    println("(first and second) Oldests of pairs of person->  ${first.name} and ${second.name}")
+    println("Oldest of pairs of person in a simply way->  ${persons.maxBy { it.age }?.name}")
 }
 
 data class Person(val name: String, val age: Int)
+data class Food(val category: String, val names: List<String>)
+
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
+    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="flat map">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" afterDir="false" />
     </list>
@@ -120,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="224">
+              <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="84" selection-end-line="80" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -606,7 +606,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557693876101</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="maxby">
+      <created>1557694124955</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1557694124955</updated>
+    </task>
+    <task id="LOCAL-00027" summary="getOrElse">
+      <created>1557694861538</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1557694861538</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -689,7 +703,10 @@
     <MESSAGE value="safe cast" />
     <MESSAGE value="playground safe cast" />
     <MESSAGE value="common operations on collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="common operations on collections" />
+    <MESSAGE value="maxby" />
+    <MESSAGE value="getOrElse" />
+    <MESSAGE value="flat map" />
+    <option name="LAST_COMMIT_MESSAGE" value="flat map" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
@@ -907,8 +924,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="224">
+          <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="84" selection-end-line="80" selection-end-column="84" />
         </state>
       </provider>
     </entry>
