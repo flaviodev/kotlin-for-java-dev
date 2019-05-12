@@ -91,7 +91,7 @@ fun main() {
     println("Oldest of pairs of person in a simply way->  ${persons.maxBy { it.age }?.name}")
 }
 
+fun List<Int>.allNonZero() = this.all { it != 0 }
+
 data class Person(val name: String, val age: Int)
 data class Food(val category: String, val names: List<String>)
-
-
