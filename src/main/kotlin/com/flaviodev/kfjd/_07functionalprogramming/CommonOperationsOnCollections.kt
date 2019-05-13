@@ -93,5 +93,9 @@ fun main() {
 
 fun List<Int>.allNonZero() = this.all { it != 0 }
 
-data class Person(val name: String, val age: Int)
+data class Person(val name: String, val age: Int) {
+    private fun isOlder(limit:Int) = age > limit
+    fun getAgePredicate() = this::isOlder
+}
+
 data class Food(val category: String, val names: List<String>)
