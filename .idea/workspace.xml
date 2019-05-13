@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="flat map">
+    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/FunctionTypes.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -117,11 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="84" selection-end-line="80" selection-end-column="84" />
+            <state relative-caret-position="389">
+              <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/FunctionTypes.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -185,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/Lambdas.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/flaviodev/InvocationFromJava.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/FunctionTypes.kt" />
       </list>
     </option>
   </component>
@@ -337,7 +347,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt">
+  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt">
     <configuration name="InvocationFromJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.flaviodev.InvocationFromJava" />
       <module name="kotlin-for-java-dev.main" />
@@ -364,19 +374,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.flaviodev.kfjd._05nullability.SafeCastsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-for-java-dev.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._05nullability.SafeCastsKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -385,6 +382,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-for-java-dev.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -405,18 +415,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.InvocationFromJava" />
-      <item itemvalue="Kotlin.com.flaviodev.kfjd._05nullability.SafeCastsKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._05nullability.PlaygroundSafeCastKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.LambdasKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" />
+      <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.LambdasKt" />
         <item itemvalue="Application.InvocationFromJava" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._05nullability.PlaygroundSafeCastKt" />
-        <item itemvalue="Kotlin.com.flaviodev.kfjd._05nullability.SafeCastsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -620,7 +630,21 @@
       <option name="project" value="LOCAL" />
       <updated>1557694861538</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="flat map">
+      <created>1557697712546</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1557697712546</updated>
+    </task>
+    <task id="LOCAL-00029" summary="flat map">
+      <created>1557702245671</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1557702245671</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -924,8 +948,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="80" column="84" lean-forward="true" selection-start-line="80" selection-start-column="84" selection-end-line="80" selection-end-column="84" />
+        <state relative-caret-position="389">
+          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/FunctionTypes.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
