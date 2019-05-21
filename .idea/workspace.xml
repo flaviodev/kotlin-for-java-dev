@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -54,15 +52,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_04extensions/StandardLibrary.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_05nullability/SafeCasts.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -98,11 +87,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_03controlstructures/Loops.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="546">
               <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/Properies.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -201,6 +199,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/CommonOperationsOnCollections.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/MemberReferences.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_07functionalprogramming/ReturnFromLambda.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/Properies.kt" />
       </list>
     </option>
   </component>
@@ -298,6 +297,17 @@
               <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flaviodev" type="462c0819:PsiDirectoryNode" />
+              <item name="kfjd" type="462c0819:PsiDirectoryNode" />
+              <item name="_08Properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -342,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt">
+  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._08Properties.ProperiesKt">
     <configuration name="com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -364,19 +374,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.flaviodev.kfjd._07functionalprogramming.LambdasKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-for-java-dev.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._07functionalprogramming.LambdasKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -408,20 +405,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.flaviodev.kfjd._08Properties.ProperiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-for-java-dev.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._08Properties.ProperiesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.LambdasKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.MemberReferencesKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.ReturnFromLambdaKt" />
+      <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.ProperiesKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.ProperiesKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.CommonOperationsOnCollectionsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.ReturnFromLambdaKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.MemberReferencesKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.FunctionTypesKt" />
-        <item itemvalue="Kotlin.com.flaviodev.kfjd._07functionalprogramming.LambdasKt" />
       </list>
     </recent_temporary>
   </component>
@@ -660,7 +670,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557714360331</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="workspace changes">
+      <created>1558478163756</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1558478163758</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -691,8 +708,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21693414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21693414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -701,7 +719,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.33045357" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.32829374" />
@@ -748,7 +766,8 @@
     <MESSAGE value="function types" />
     <MESSAGE value="member references em bound references" />
     <MESSAGE value="return from lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="return from lambda" />
+    <MESSAGE value="workspace changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
@@ -989,6 +1008,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/Properies.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
