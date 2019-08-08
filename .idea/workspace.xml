@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Equals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -71,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/LazyPropertyAndLateInit.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -79,6 +80,15 @@
               <folding>
                 <element signature="e#42#104#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Equals.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -145,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/PropertiesOnInterfaces.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/LazyPropertyAndLateInit.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_08Properties/Interpolation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Equals.kt" />
       </list>
     </option>
   </component>
@@ -284,6 +295,17 @@
               <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="flaviodev" type="462c0819:PsiDirectoryNode" />
+              <item name="kfjd" type="462c0819:PsiDirectoryNode" />
+              <item name="_09oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kotlin-for-java-dev" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kotlin-for-java-dev" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -330,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._08Properties.InterpolationKt">
+  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._09oop.EqualsKt">
     <configuration name="com.flaviodev.kfjd._08Properties.InterpolationKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -370,19 +392,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.flaviodev.kfjd._08Properties.RegexKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-for-java-dev.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._08Properties.RegexKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.flaviodev.kfjd._08Properties.TestInKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
@@ -396,20 +405,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.flaviodev.kfjd._09oop.EqualsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-for-java-dev.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._09oop.EqualsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.RegexKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.TestInKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.PropertiesOnInterfacesKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.LazyPropertyAndLateInitKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.InterpolationKt" />
+      <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.EqualsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.EqualsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.InterpolationKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.LazyPropertyAndLateInitKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.PropertiesOnInterfacesKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.TestInKt" />
-        <item itemvalue="Kotlin.com.flaviodev.kfjd._08Properties.RegexKt" />
       </list>
     </recent_temporary>
   </component>
@@ -676,7 +698,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565147504194</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="week 4 - oop">
+      <created>1565263956318</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1565263956320</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -707,6 +736,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2139808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -740,7 +770,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="functions" />
     <MESSAGE value="refactoring functions" />
     <MESSAGE value="Named &amp; Default Arguments" />
     <MESSAGE value="if and when" />
@@ -765,7 +794,8 @@
     <MESSAGE value="return from lambda" />
     <MESSAGE value="workspace changes" />
     <MESSAGE value="lesson 1 week 4 - properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 week 4 - properties" />
+    <MESSAGE value="week 4 - oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 - oop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
@@ -1040,6 +1070,13 @@
           <folding>
             <element signature="e#42#104#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Equals.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
