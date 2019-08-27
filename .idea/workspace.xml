@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53f4403b-2a0a-4069-b711-b82ee1fb8188" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Constants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Generics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -126,16 +125,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Object.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Constants.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Constants.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Generics.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="255">
+              <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -208,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Object.kt" />
         <option value="$PROJECT_DIR$/build.gradle.kts" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Constants.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Generics.kt" />
       </list>
     </option>
   </component>
@@ -333,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._09oop.ConstantsKt">
+  <component name="RunManager" selected="Kotlin.com.flaviodev.kfjd._09oop.GenericsKt">
     <configuration name="kotlin-for-java-dev [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -379,14 +388,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.flaviodev.kfjd._09oop.InnerKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.flaviodev.kfjd._09oop.GenericsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-for-java-dev.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._09oop.InnerKt" />
+      <option name="MAIN_CLASS_NAME" value="com.flaviodev.kfjd._09oop.GenericsKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -406,19 +415,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.InnerKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.DelegationKt" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.ObjectKt" />
       <item itemvalue="Gradle.kotlin-for-java-dev [clean]" />
       <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.ConstantsKt" />
+      <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.GenericsKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.GenericsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.ConstantsKt" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.ObjectKt" />
         <item itemvalue="Gradle.kotlin-for-java-dev [clean]" />
         <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.DelegationKt" />
-        <item itemvalue="Kotlin.com.flaviodev.kfjd._09oop.InnerKt" />
       </list>
     </recent_temporary>
   </component>
@@ -720,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566350500380</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="week 4 - oop - constants">
+      <created>1566868721881</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1566868721882</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -773,7 +789,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32843652" />
-      <window_info anchor="right" id="Gradle" order="0" weight="0.32977587" />
+      <window_info anchor="right" id="Gradle" order="0" weight="0.29829243" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -785,7 +801,6 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="playground" />
     <MESSAGE value="exceptions" />
     <MESSAGE value="extensions" />
     <MESSAGE value="standard library and infix functions" />
@@ -810,7 +825,8 @@
     <MESSAGE value="week 4 - oop - sealed" />
     <MESSAGE value="week 4 - oop - inner classes" />
     <MESSAGE value="week 4 - oop - delegation" />
-    <option name="LAST_COMMIT_MESSAGE" value="week 4 - oop - delegation" />
+    <MESSAGE value="week 4 - oop - constants" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 4 - oop - constants" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/App.kt" />
@@ -1086,14 +1102,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Object.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Constants.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/flaviodev/kfjd/_09oop/Generics.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="73" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
         </state>
       </provider>
     </entry>
